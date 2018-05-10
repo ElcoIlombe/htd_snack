@@ -1,0 +1,157 @@
+/*// GENERAL*/
+@font-face {
+
+}
+@font-face {
+
+}
+
+/*// GLOBAL*/
+
+
+/* Typography */
+body, body h1,body h2,body h3,body h4,body h5,body h6 {
+  font-family: 'Chewy', cursive;
+}
+.title {
+  color: white;
+  font-size: 8vh;
+}
+.color-white{
+  color: white;
+}
+h2{
+  font-weight: bold;
+}
+/* Display */
+.space {
+  padding: 35px 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0);
+  z-index: -999;
+}
+.space-mid {
+  padding: 17.5px 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0);
+  z-index: -999;
+}
+.full-height {
+  padding: 8vh 0;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.viewport-height{
+    height: 100vh!important;
+}
+.viewport-mid-height{
+    height: 40vh!important;
+}
+.main-bg {
+  background-color: #5cc1a9;
+  color: white;
+}
+
+.background-white{
+  background-color: white;
+  z-index: 999;
+  padding: 10px;
+}
+/* Navbar */
+
+nav a {
+  color: white;
+}
+nav a:hover {
+  color: aqua;
+  text-decoration: none;
+  font-size: 1.2em;
+  transition: 0.3s;
+}
+.black {
+  background: #fff!important;
+  color: black;
+  transition: 1s;
+}
+.black li a.nav-item, .black li a.nav-link{
+  color: black!important;
+}
+.navbar-dark{
+  transition: 1s;
+}
+/*Overlay*/
+.overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+/*HERO */
+.hero {
+  background: url('../img/hero_bg.jpeg') no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+
+.hero .container{
+  height: 100%;
+}
+.hero .row{
+  width: 100%;
+}
+/*Menu home*/
+
+.menu .menu-items {
+  padding: 150px 50px;
+  background-color: lightblue;
+  font-weight: bold;
+  font-size: 2em;
+  color: white;
+  margin: 5px;
+  width: 100%;
+  font-family: 'Chewy', cursive;
+}
+
+.menu .burger{
+  background: url('../img/burger1.jpg') no-repeat;
+  background-size: cover;
+}
+.menu .pizza{
+  background: url('../img/pizza1.jpg') no-repeat;
+  background-size: cover;
+}
+.menu .pate{
+  background: url('../img/pate1.jpg') no-repeat;
+  background-size: cover;
+}
+.menu .kebab{
+  background: url('../img/kebab1.jpg') no-repeat;
+  background-size: cover;
+}
+/* Menu Page */
+
+.hero_menu{
+  background: #D8431F;
+}
+
+.hero_menu .container{
+  height: 100%;
+}
+/*bienfaits*/
+
+
+/*Programme*/
+
+
+/* Galerie*/
+
+/* Footer */
+
+footer {
+  background-color: #012;
+  padding: 35px 0 15px 0;
+  color: white;
+}
+
+

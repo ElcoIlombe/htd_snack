@@ -148,10 +148,66 @@ nav a:hover {
 
 /* Footer */
 
-footer {
-  background-color: #012;
-  padding: 35px 0 15px 0;
-  color: white;
+
+footer{
+     background-color: #33383c;
+     padding:30px 0px 5px 0px;
 }
 
+.logo{
+    color:#FFF;
+    font-weight:700;
+    font-size:30px;
+}
 
+.address span , .menu_footer span{
+   color: #FFF;
+   font-weight: bold;
+   border-bottom: 1px solid #c7c7c7;
+   padding:10px 0px;
+   display: block;
+   text-transform: uppercase;
+   font-size: 16px;
+   letter-spacing: 3px;
+}
+
+.address li a , .menu_footer li a{
+    color:#FFF;
+    letter-spacing: 3px;
+    text-decoration:none;
+    font-size:14px;
+}
+
+.address li, .menu_footer li{
+    margin:20px 0px;
+    list-style: none;
+}
+
+.address .fa{
+    color: #fff;
+    margin-right: 10px;
+    font-size:18px;
+}
+
+@media screen and (max-width: 983px)
+{
+
+  .viewport-height{
+    height: 100%!important;
+  }
+
+  .btn-danger {
+  margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 767px)
+{
+  .viewport-height{
+    height: 100%!important;
+  }
+
+  .btn-danger {
+  margin-bottom: 25px;
+  }
+}
